@@ -6,3 +6,7 @@
     color: red;
     text-decoration: none;
 }
+
+.wrapper button {
+    margin-right: 10px;
+}
