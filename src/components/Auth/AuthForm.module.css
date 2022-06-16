@@ -1,0 +1,16 @@
+.authForm {
+  height: 500px;
+  width: 500px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+.authForm .label {
+  padding-top: 10px;
+}
+
+.authForm .label a {
+  cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+}
