@@ -60,11 +60,12 @@ const Post = (props) => {
       .then((data) => {
         console.log(data);
         bodyRef.current.value = "";
+        window.location.reload(false);
       })
       .catch((error) => {
         console.log(error);
       });
-      window.location.reload(false);
+      
   };
 
   return (
